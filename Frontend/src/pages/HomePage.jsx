@@ -4,7 +4,8 @@ import ChatContainer from '../components/ChatContainer';
 
 import NoChatSelected from '../components/NoChatSelected';
 
-import Sidebar from '../components/sidebar';
+import Sidebar from '../components/Sidebar';
+
 
 const HomePage = () => {
   const { selectedUser } = useChatStore();
