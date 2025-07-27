@@ -15,7 +15,7 @@ const Navebar = () => {
             <Link to="/" className="flex py-[5px] items-center gap-2.5 hover:opacity-80 transition-all">
               <div className="size-9 rounded-lg bg-primary/10 flex items-center justify-center">
                 {/* <MessageSquare className="w-5 h-5 text-primary" /> */}
-                <img src="dist\assets\icon.png" alt="" />
+                <img src="public\icon.png" alt="Logo" />
               </div>
               <h1 className="text-lg font-bold">Bondly</h1>
             </Link>
