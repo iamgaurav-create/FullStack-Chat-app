@@ -33,7 +33,7 @@ app.use("/api/messages", messageauth);
 
 // Serve frontend in production / on Render
 if (process.env.RENDER === "true" || process.env.NODE_ENV === "production") {
-  const frontendPath = path.join(__dirname, "../../Frontend/dist");
+const frontendPath = path.join(__dirname, "../../Frontend/dist");
 
   app.use(express.static(frontendPath));
 
