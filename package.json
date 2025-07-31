@@ -2,11 +2,12 @@
   "name": "chat-app",
   "version": "1.0.0",
   "main": "index.js",
-  "scripts": {
-    "postinstall": "npm install --prefix Backend && npm install --prefix Frontend",
-    "build": "npm run build --prefix Frontend",
-    "start": "npm run start --prefix Backend"
-  },
+"scripts": {
+  "setup": "npm install --prefix Backend && npm install --prefix Frontend",
+  "build": "npm run build --prefix Frontend",
+  "start": "npm run start --prefix Backend"
+},
+
   "keywords": [],
   "author": "",
   "license": "ISC",
