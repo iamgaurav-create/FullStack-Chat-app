@@ -95,18 +95,18 @@ const handleDelete = async () => {
               <div className="flex items-center justify-between py-2 border-b border-zinc-700">
                 <span>Member Since</span>
                 <span>{authUser && authUser.createdAt
-      ? authUser.createdAt.split("T")[0]
-      : "N/A"}</span>
+              ? authUser.createdAt.split("T")[0]
+              : "N/A"}</span>
               </div>
               <div className="flex items-center justify-between py-2  border-b border-zinc-700">
                 <span>Account Status</span>
                 <span className="text-green-500 ">Active</span>
               </div>
                  <div className="flex items-center justify-between py-2">
-                <span>Account Status</span>
+                <span>Disable Account</span>
      <button
   className="bg-red-500 text-white px-3 py-1 rounded hover:bg-red-600"
-  onClick={() => setOpen(true)} // open modal
+  onClick={() => setOpen(true)} 
 >
   Delete My Account
 </button>
