@@ -1,6 +1,5 @@
 <div align="center">
-
-  <img src="https://raw.githubusercontent.com/iamgaurav-create/FullStack-Chat-app/main/assets/banner.png" alt="FullStack Chat App Banner" width="100%" />
+<img src="https://raw.githubusercontent.com/iamgaurav-create/FullStack-Chat-app/main/Frontend/public/banner.png" alt="FullStack Chat App Banner" width="100%" />
 
   <h1>💬 FullStack Chat App</h1>
   <p>A real-time chat application with modern full-stack technologies</p>
@@ -17,13 +16,14 @@
 ---
 
 ## 📸 Preview
+<table>
+  <tr>
+    <td><img src="https://raw.githubusercontent.com/iamgaurav-create/FullStack-Chat-app/main/Frontend/public/sample.png" width="500" /></td>
+    <td><img src="https://raw.githubusercontent.com/iamgaurav-create/FullStack-Chat-app/main/Frontend/public/sample2.png" width="500" /></td>
+  </tr>
+</table>
 
-> 📷 *Replace these image links with your own screenshots or demo GIFs.*
 
-<img src="https://user-images.githubusercontent.com/00000000/chat-demo-1.png" width="700" />
-<img src="https://user-images.githubusercontent.com/00000000/chat-demo-2.png" width="700" />
-
----
 
 ## 🚀 Tech Stack
 
